@@ -23,7 +23,7 @@ page = st.sidebar.selectbox('Select an analysis topic',
 
 #### Import data #####
 
-df = pd.read_csv('NY_plotdata.csv', index_col = 0)
+df = pd.read_csv('reduced_data_to_plot.csv', index_col = 0)
 top_20 = pd.read_csv('top_20.csv')
 
 #### Define Pages ####
